@@ -29,5 +29,5 @@ if __name__=='__main__':
 	t1.start()
 	time.sleep(1)
 	t2.start()
-	time.sleep(2)
+	time.sleep(1)
 	p1.start()
