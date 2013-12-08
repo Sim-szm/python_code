@@ -21,4 +21,6 @@ if __name__=='__main__':
 		t=threading.Thread(target=func)
 		jobs.append(t)
 		t.start()
+	for j in jobs:
+		j.join()
 
